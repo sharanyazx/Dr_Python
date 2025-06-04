@@ -9,7 +9,7 @@ def analyze_code_quality(file_path):
 
 def ai_code_suggestions(code):
     # Configure Gemini API
-    genai.configure(api_key="AIzaSyAPx1qltyTkS8rTEm6hAvm_cA0E9RsAuSA")  # Replace with your actual API key
+    genai.configure(api_key="Your API here")  # Replace with your actual API key
 
     # Load the Gemini model
     model = genai.GenerativeModel("gemini-1.5-flash")
