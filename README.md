@@ -35,5 +35,5 @@ It combines traditional static analysis with intelligent AI feedback to provide 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/drpy.git
+   git clone https://github.com/Vivek07016/drpy.git
    cd drpy
