@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: dr-python-streamlit
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
