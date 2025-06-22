@@ -2,7 +2,7 @@
 import google.generativeai as genai
 
 
-genai.configure (api_key="AIzaSyDouJtbr2Qn1htgzFheSHsccr8qNywNuiA") 
+genai.configure (api_key="your api key") 
 
 for model in genai.list_models():
     print(model.name)
